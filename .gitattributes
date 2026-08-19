@@ -1,0 +1,9 @@
+# Normalize line endings to LF for all text files (GitHub Licensee/prose detection
+# does exact hash matching, and CRLF blobs break MIT license detection).
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
