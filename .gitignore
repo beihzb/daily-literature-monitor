@@ -1,0 +1,16 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Output / runtime data
+litmon_test/
+*.json.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
